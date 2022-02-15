@@ -1,0 +1,49 @@
+body { display: block; margin: 8px;}
+
+a { color: inherit; text-decoration: none; } 
+
+.light { color: gray; }
+
+div { display: block; }
+
+div, p, section { position: relative; overflow: visible; }
+
+.sidebar a { display: block; } h1 a { font-size:13px; position: relative; }
+
+.logo { 
+    display: block;
+    text-align: right;
+    margin-bottom: 3em;
+}
+
+.sidebar h1, a, h2, h3, h4, h5, h6 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.7325px;
+}
+
+.sidebar, h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin-bottom: 1em;
+    font-family: 'Gill Sans MT','Gill Sans','Gill Sans Std',Verdana,'Bitstream Vera Sans',sans-serif;
+}
+
+.sidebar {
+    width: 160px;
+    position: absolute;
+    left: 38em;
+    top: auto;
+    text-align: right;
+    line-height: 135%;
+}
+
+.entry {
+    font: 11px/1.8 Verdana,'Bitstream Vera Sans',sans-serif;
+    color: #111;
+    word-wrap: break-word;
+    position: relative;
+    width: 425px;
+    margin: 7em auto;
+    padding: 0 74px 0 222px;
+    line-height: 2;
+}

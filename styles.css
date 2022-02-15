@@ -10,13 +10,22 @@ div, p, section { position: relative; overflow: visible; }
 
 .sidebar a { display: block; } h1 a { font-size:13px; position: relative; }
 
+.entry p, .entry>ol, .entry>ul {
+    margin: 1.6em 0;
+}
+
+img { 
+    max-width: 100%;
+    height: auto;
+}
+
 .logo { 
     display: block;
     text-align: right;
     margin-bottom: 3em;
 }
 
-.sidebar h1, a, h2, h3, h4, h5, h6 {
+.sidebar, h1, a, h2, h3, h4, h5, h6 {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1.7325px;
@@ -25,7 +34,8 @@ div, p, section { position: relative; overflow: visible; }
 .sidebar, h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     margin-bottom: 1em;
-    font-family: 'Gill Sans MT','Gill Sans','Gill Sans Std',Verdana,'Bitstream Vera Sans',sans-serif;
+    font-family: 'Gill Sans MT','Gill Sans','Gill Sans Std',
+                    Verdana,'Bitstream Vera Sans',sans-serif;
 }
 
 .sidebar {
@@ -33,10 +43,9 @@ div, p, section { position: relative; overflow: visible; }
     position: absolute;
     left: 0;
     text-align: right;
-    line-height: 135%;
 }
 
-.entry {
+body {
     font: 11px/1.8 Verdana,'Bitstream Vera Sans',sans-serif;
     color: #111;
     word-wrap: break-word;
@@ -44,5 +53,4 @@ div, p, section { position: relative; overflow: visible; }
     width: 425px;
     margin: 7em auto;
     padding: 0 74px 0 222px;
-    line-height: 2;
 }

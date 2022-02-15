@@ -31,8 +31,7 @@ div, p, section { position: relative; overflow: visible; }
 .sidebar {
     width: 160px;
     position: absolute;
-    left: 38em;
-    top: auto;
+    left: 0;
     text-align: right;
     line-height: 135%;
 }

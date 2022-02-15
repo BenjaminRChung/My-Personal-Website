@@ -54,3 +54,8 @@ body {
     margin: 7em auto;
     padding: 0 74px 0 222px;
 }
+
+.archives {
+    font-size: 12px;
+    text-transform: lowercase;
+}

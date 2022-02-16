@@ -55,7 +55,38 @@ body {
     padding: 0 74px 0 222px;
 }
 
-.archives {
-    font-size: 12px;
-    text-transform: lowercase;
+h1 {
+    font-size: 1.55em;
+    line-height: 1.3;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.entry a {
+    text-decoration: none;
+    font-size: 11px;
+    text-transform: inherit;
+    letter-spacing: inherit;
+    font-family:Verdana,'Bitstream Vera Sans',sans-serif;
+    text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0 0.06em #fff, 0 -0.06em #fff;
+    background-image: linear-gradient(#fff,#fff),linear-gradient(#fff,#fff),linear-gradient(#555,#555);
+    background-size: 0 0,0 0,0.1em 0.1em;
+    background-repeat: no-repeat,no-repeat,repeat-x;
+    background-position: 0 90%,100% 100%,0 100%;
+}
+
+.entry a::selection {
+    background: #b3d4fd;
+    text-shadow: 0.03em 0 #b3d4fd, -0.03em 0 #b3d4fd, 0 0.03em #b3d4fd, 0 -0.03em #b3d4fd, 0.06em 0 #b3d4fd, -0.06em 0 #b3d4fd, 0.09em 0 #b3d4fd, -0.09em 0 #b3d4fd, 0.12em 0 #b3d4fd, -0.12em 0 #b3d4fd;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    color: #111;
+    text-align: center;
 }

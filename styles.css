@@ -55,6 +55,16 @@ body {
     padding: 0 74px 0 222px;
 }
 
+.core-values-beliefs {
+    font: 11px/1.8 Verdana,'Bitstream Vera Sans',sans-serif;
+    color: #111;
+    word-wrap: break-word;
+    position: relative;
+    width: 425px;
+    margin: 7em auto;
+    padding: 0 74px 0 222px;
+}
+
 h1 {
     font-size: 1.55em;
     line-height: 1.3;

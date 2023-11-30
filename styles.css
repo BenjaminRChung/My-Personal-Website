@@ -119,3 +119,8 @@ h1 {
  #gallery img:hover {
     filter:none;
  }
+ 
+ mark {
+    background-color: #d68fe8;
+    opacity: 1.1
+  }

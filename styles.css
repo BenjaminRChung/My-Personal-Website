@@ -124,3 +124,21 @@ h1 {
     background-color: #dbb3e5;
     opacity: 1
   }
+
+:root {
+    --text-color-light: #111;
+    --bg-color-light: #FFF;
+
+    --text-color-dark: #FFF;
+    --bg-color-dark: #111;
+}
+
+body {
+    color: var(--text-color-light);
+    background-color: var(--bg-color-light);
+}
+
+body.dark-mode {
+    color: var(--text-color-dark);
+    background-color: var(--bg-color-dark);
+}

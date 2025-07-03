@@ -1,14 +1,3 @@
-// window.addEventListener('DOMContentLoaded', (event) => {
-//     const toggleButton = document.createElement('button');
-//     toggleButton.id = 'theme-toggle';
-//     toggleButton.innerText = 'Toggle theme';
-//     toggleButton.addEventListener('click', function() {
-//         document.body.classList.toggle('dark-mode');
-//     });
-
-//     document.body.appendChild(toggleButton);
-// });
-
 function generateSidebar() {
     const sidebarHTML = `
         <div class="sidebar">
@@ -22,9 +11,9 @@ function generateSidebar() {
             <!--<a href="./pages/projects.html" class="light" title="Projects">Projects</a>-->
             <!-- <a href="./pages/contact.html" class="light" title="Contact">Contact</a>  -->
             <a href="https://www.linkedin.com/in/benjaminrchung/" target="_blank" class="light" title="LinkedIn">LinkedIn</a>
-            <!-- <a href="https://benjamin-chung.medium.com/" target="_blank" class="light" title="Medium">Medium</a> -->
             <a href="https://github.com/BenjaminRChung" target="_blank" class="light" title="GitHub">GitHub</a>
-            <!--<a href="https://twitter.com/benjaminrchung" target="_blank" class="light" title="Twitter">Twitter</a>-->
+            <a href="https://twitter.com/benjaminrchung" target="_blank" class="light" title="Twitter">Twitter</a>
+            <a href="https://substack.com/@benjaminrchung" target="_blank" class="light" title="Substack">Substack</a>
         </div>
     `;
 

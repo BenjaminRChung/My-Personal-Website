@@ -142,3 +142,35 @@ body.dark-mode {
     color: var(--text-color-dark);
     background-color: var(--bg-color-dark);
 }
+
+@media (max-width: 760px) {
+    body {
+        width: auto;
+        max-width: 425px;
+        margin: 2.5em auto;
+        padding: 0 20px;
+    }
+
+    .sidebar {
+        position: static;
+        width: auto;
+        text-align: left;
+        margin-bottom: 2em;
+    }
+
+    .logo {
+        text-align: left;
+        margin-bottom: 1.5em;
+    }
+}
+
+@media (max-width: 520px) {
+    body {
+        margin: 1.75em auto;
+        padding: 0 14px;
+    }
+
+    #gallery {
+        column-count: 2;
+    }
+}

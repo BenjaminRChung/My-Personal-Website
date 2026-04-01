@@ -1,0 +1,37 @@
+[
+  {
+    "src": "/images/photos/IMG_4167.JPG",
+    "alt": "Street in Morocco",
+    "category": "Morocco",
+    "place": "Marrakech",
+    "focus": "55% 45%"
+  },
+  {
+    "src": "/images/photos/IMG_7394.jpeg",
+    "alt": "Portrait",
+    "category": "People",
+    "place": "With friends",
+    "focus": "50% 35%"
+  },
+  {
+    "src": "/images/photos/IMG_8796.jpeg",
+    "alt": "Morocco landscape",
+    "category": "Morocco",
+    "place": "Atlas Mountains",
+    "focus": "50% 40%"
+  },
+  {
+    "src": "/images/photos/IMG_8842.jpeg",
+    "alt": "Scotland coast",
+    "category": "Scotland",
+    "place": "North Coast 500",
+    "focus": "45% 50%"
+  },
+  {
+    "src": "/images/photos/scotland.JPG",
+    "alt": "Scotland hills",
+    "category": "Scotland",
+    "place": "Scottish Highlands",
+    "focus": "50% 38%"
+  }
+]

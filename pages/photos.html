@@ -3,6 +3,7 @@
 
 <head>
     <script defer src="/main.js"></script>
+    <script defer src="/js/photos.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,18 +11,20 @@
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico"/>
 </head>
-<body>
-    <!--Contact-->
+<body class="photo-page">
     <div class="entry">
         <h1>Photos</h1>
-        <p><i>A collection of a few of my favourite photos / videos over the years.</i></p><br>
-        <p><i>coming soon.</i></p>
+        <p><i>A collection of a few of my favourite photos over the years.</i></p>
+        <div id="photo-filters" class="photo-filters" role="toolbar" aria-label="Filter by place type"></div>
+        <div id="photo-grid" class="photo-grid" aria-label="Photo gallery"></div>
     </div>
 
-    <!-- <div id="gallery">
-        <img src="../images/monet.jpg">
-        <img src="https://source.unsplash.com/VWcPlbHglYc">
-    </div> -->
-
+    <dialog id="photo-lightbox" class="photo-lightbox" aria-labelledby="photo-lightbox-caption">
+        <div class="photo-lightbox__panel">
+            <button type="button" class="photo-lightbox__close" aria-label="Close">&times;</button>
+            <img class="photo-lightbox__img" src="" alt="">
+            <p id="photo-lightbox-caption" class="photo-lightbox__caption"></p>
+        </div>
+    </dialog>
 </body>
 </html>

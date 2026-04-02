@@ -197,9 +197,13 @@ body.dark-mode .photo-filters__btn[aria-pressed="true"] {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 2px;
-    background: #f0f0f0;
+    background: var(--bg-color-light);
     margin-top: 1em;
     line-height: 0;
+}
+
+body.dark-mode .photo-grid {
+    background: var(--bg-color-dark);
 }
 
 .photo-tile {
@@ -214,6 +218,10 @@ body.dark-mode .photo-filters__btn[aria-pressed="true"] {
     background: #e8e8e8;
     font: inherit;
     text-align: left;
+}
+
+.photo-tile[hidden] {
+    display: none;
 }
 
 .photo-tile:focus-visible {

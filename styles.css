@@ -195,7 +195,7 @@ body.dark-mode .photo-filters__btn[aria-pressed="true"] {
 
 .photo-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 2px;
     background: #f0f0f0;
     margin-top: 1em;
@@ -415,9 +415,5 @@ body.dark-mode .photo-tile:focus-visible {
 
     #gallery {
         column-count: 2;
-    }
-
-    .photo-grid {
-        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     }
 }

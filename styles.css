@@ -294,6 +294,7 @@ body.dark-mode .photo-tile:focus-visible {
 
 /* Closed dialog must not block clicks on the page (e.g. fixed children in some browsers). */
 .photo-lightbox:not([open]) {
+    display: none;
     pointer-events: none;
 }
 

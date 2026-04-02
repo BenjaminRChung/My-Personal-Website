@@ -79,6 +79,9 @@ function initPhotoGallery() {
         }
     });
     dialog.addEventListener('close', () => {
+        imgEl.removeAttribute('src');
+        imgEl.alt = '';
+        captionEl.textContent = '';
         if (lastFocus && typeof lastFocus.focus === 'function') {
             lastFocus.focus();
         }

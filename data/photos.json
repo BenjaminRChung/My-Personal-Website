@@ -33,5 +33,26 @@
     "category": "Scotland",
     "place": "Scottish Highlands",
     "focus": "50% 38%"
+  },
+  {
+    "src": "/images/photos/IMG_8111.jpeg",
+    "alt": "Peru",
+    "category": "Peru",
+    "place": "Peru",
+    "focus": "50% 50%"
+  },
+  {
+    "src": "/images/photos/IMG_8571.jpeg",
+    "alt": "Peru",
+    "category": "Peru",
+    "place": "Peru",
+    "focus": "50% 50%"
+  },
+  {
+    "src": "/images/photos/IMG_2933.jpeg",
+    "alt": "California",
+    "category": "California",
+    "place": "California",
+    "focus": "50% 50%"
   }
 ]

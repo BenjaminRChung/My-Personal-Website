@@ -15,7 +15,6 @@ function generateSidebar() {
             <!--<a href="./pages/projects.html" class="light" title="Projects">Projects</a>-->
             <!-- <a href="./pages/contact.html" class="light" title="Contact">Contact</a>  -->
             <a href="https://www.linkedin.com/in/benjaminrchung/" target="_blank" rel="noopener noreferrer" class="light" title="LinkedIn">LinkedIn</a>
-            <a href="https://github.com/BenjaminRChung" target="_blank" rel="noopener noreferrer" class="light" title="GitHub">GitHub</a>
             <a href="https://twitter.com/benjaminrchung" target="_blank" rel="noopener noreferrer" class="light" title="Twitter">Twitter</a>
             <a href="https://substack.com/@benjaminrchung" target="_blank" rel="noopener noreferrer" class="light" title="Substack">Substack</a>
         </div>

@@ -9,7 +9,6 @@ function generateSidebar() {
             <a href="/pages/about" class="light" title="About">About</a>
             <a href="/pages/archives" class="light" title="Archives">Writings</a>
             <!-- <a href="./pages/favourites.html" class="light" title="Archives">Favourites</a> -->
-            <a href="/pages/experiences" class="light" title="Experiences">Experience</a>
             <a href="/pages/photos" class="light" title="Gallery">Photos</a>
             <br>
             <!--<a href="./pages/projects.html" class="light" title="Projects">Projects</a>-->
